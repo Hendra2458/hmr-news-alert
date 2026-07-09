@@ -1,0 +1,22 @@
+{
+  "USD_FOMC Meeting Minutes_2026-07-08T14:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-08T14:00:00-04:00",
+    "forecast": "",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "FOMC Meeting Minutes"
+  },
+  "USD_ISM Services PMI_2026-07-06T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-06T10:00:00-04:00",
+    "forecast": "54.2",
+    "pre_alert_sent": false,
+    "previous": "54.5",
+    "result_alert_sent": false,
+    "title": "ISM Services PMI"
+  }
+}
