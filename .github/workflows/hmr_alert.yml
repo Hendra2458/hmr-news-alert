@@ -1,0 +1,36 @@
+name: HMR News Alert
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run-alert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run alert script
+        env:
+          HMR_TG_TOKEN: ${{ secrets.HMR_TG_TOKEN }}
+          HMR_TG_CHAT_ID: ${{ secrets.HMR_TG_CHAT_ID }}
+        run: python hmr_alert_cloud.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "hmr-bot"
+          git config user.email "hmr-bot@users.noreply.github.com"
+          git add state.json
+          git diff --staged --quiet || git commit -m "update state [skip ci]"
+          git push
