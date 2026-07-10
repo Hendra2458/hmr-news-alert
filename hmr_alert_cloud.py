@@ -149,14 +149,20 @@ def make_event_id(raw: dict, event_time: dt.datetime) -> str:
     return f"{raw.get('country')}_{raw.get('title')}_{event_time.isoformat()}"
 
 
-def send_telegram(text: str) -> None:
+def send_telegram(text: str) -> bool:
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         print("[WARN] Token/chat_id kosong, pesan hanya dicetak:\n", text)
-        return
+        return False
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    r = requests.post(url, data={"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "HTML"}, timeout=10)
-    if not r.ok:
-        print(f"[ERROR] Telegram gagal: {r.status_code} {r.text}")
+    try:
+        r = requests.post(url, data={"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "HTML"}, timeout=10)
+        if not r.ok:
+            print(f"[ERROR] Telegram gagal: {r.status_code} {r.text}")
+            return False
+        return True
+    except requests.RequestException as e:
+        print(f"[ERROR] Telegram exception: {e}")
+        return False
 
 
 def main() -> None:
@@ -207,8 +213,8 @@ def main() -> None:
                 f"Forecast: {entry['forecast'] or '-'} | Previous: {entry['previous'] or '-'}\n\n"
                 f"📌 Catatan XAUUSD: {bias}"
             )
-            send_telegram(msg)
-            entry["pre_alert_sent"] = True
+            ok = send_telegram(msg)
+            entry["pre_alert_sent"] = ok
 
         # --- Result alert setelah rilis ---
         if (
@@ -237,15 +243,15 @@ def main() -> None:
                 f"{surprise}\n\n"
                 f"{directional_call}"
             )
-            send_telegram(msg)
-            entry["result_alert_sent"] = True
+            ok = send_telegram(msg)
+            entry["result_alert_sent"] = ok
 
     # --- Ringkasan mingguan (sekali per minggu kalender, biar sekalian jadi alat cek sistem jalan) ---
     current_week_key = f"{now.isocalendar()[0]}-W{now.isocalendar()[1]}"
     if meta.get("last_summary_week") != current_week_key:
         summary_msg = compose_weekly_summary(matched_events)
-        send_telegram(summary_msg)
-        meta["last_summary_week"] = current_week_key
+        if send_telegram(summary_msg):
+            meta["last_summary_week"] = current_week_key
 
     # buang event lama (>10 hari) biar state.json nggak membengkak terus
     cutoff = now - dt.timedelta(days=10)
