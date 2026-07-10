@@ -184,7 +184,7 @@ def main() -> None:
             continue
 
         eid = make_event_id(raw, event_time)
-        matched_events.append((event_time, raw.get("title"), raw.get("country")))
+        matched_events.append((event_time.astimezone(dt.timezone.utc), raw.get("title"), raw.get("country")))
         entry = state.get(eid, {
             "title": raw.get("title"),
             "country": raw.get("country"),
