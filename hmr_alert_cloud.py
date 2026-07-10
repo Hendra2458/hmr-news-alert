@@ -159,6 +159,7 @@ def send_telegram(text: str) -> bool:
         if not r.ok:
             print(f"[ERROR] Telegram gagal: {r.status_code} {r.text}")
             return False
+        print(f"[INFO] Telegram terkirim OK. Response: {r.text[:200]}")
         return True
     except requests.RequestException as e:
         print(f"[ERROR] Telegram exception: {e}")
@@ -202,6 +203,11 @@ def main() -> None:
 
         minutes_to_event = (event_time - now).total_seconds() / 60.0
         minutes_since_event = -minutes_to_event
+
+        print(
+            f"[DEBUG] {entry['title']} | to_event={minutes_to_event:.1f}min | "
+            f"pre_sent={entry['pre_alert_sent']} | result_sent={entry['result_alert_sent']} | actual='{entry['actual']}'"
+        )
 
         # --- Pre-alert H-30 menit ---
         if not entry["pre_alert_sent"] and 0 <= minutes_to_event <= PRE_ALERT_MINUTES:
@@ -248,6 +254,7 @@ def main() -> None:
 
     # --- Ringkasan mingguan (sekali per minggu kalender, biar sekalian jadi alat cek sistem jalan) ---
     current_week_key = f"{now.isocalendar()[0]}-W{now.isocalendar()[1]}"
+    print(f"[DEBUG] current_week_key={current_week_key} | last_summary_week={meta.get('last_summary_week')}")
     if meta.get("last_summary_week") != current_week_key:
         summary_msg = compose_weekly_summary(matched_events)
         if send_telegram(summary_msg):
