@@ -110,6 +110,25 @@ def save_state(state: dict) -> None:
         json.dump(state, f, indent=2, sort_keys=True)
 
 
+def compose_weekly_summary(matched_events: list) -> str:
+    """matched_events: list of (event_time_utc, title, country)"""
+    if not matched_events:
+        return "📅 <b>Ringkasan Minggu Ini</b>\n\nTidak ada event High Impact USD yang terdeteksi minggu ini."
+
+    matched_events.sort(key=lambda x: x[0])
+    lines = ["📅 <b>Ringkasan News High-Impact USD Minggu Ini</b>\n"]
+    current_day = None
+    for event_time_utc, title, country in matched_events:
+        wib = event_time_utc + dt.timedelta(hours=7)
+        day_str = wib.strftime("%A, %d %b %Y")
+        if day_str != current_day:
+            lines.append(f"\n<b>{day_str}</b>")
+            current_day = day_str
+        lines.append(f"  {wib.strftime('%H:%M')} WIB - {title}")
+    lines.append(f"\nTotal: {len(matched_events)} event. Alert H-30 menit & hasil rilis akan dikirim otomatis per event.")
+    return "\n".join(lines)
+
+
 def fetch_calendar() -> list:
     resp = requests.get(FF_FEED_URL, timeout=15)
     resp.raise_for_status()
@@ -142,8 +161,11 @@ def send_telegram(text: str) -> None:
 
 def main() -> None:
     state = load_state()
+    meta = state.get("__meta__", {"last_summary_week": ""})
     raw_events = fetch_calendar()
     now = dt.datetime.now(dt.timezone.utc)
+
+    matched_events = []  # buat ringkasan mingguan: (event_time_utc, title, country)
 
     for raw in raw_events:
         if raw.get("impact") not in IMPACT_FILTER:
@@ -155,6 +177,7 @@ def main() -> None:
             continue
 
         eid = make_event_id(raw, event_time)
+        matched_events.append((event_time, raw.get("title"), raw.get("country")))
         entry = state.get(eid, {
             "title": raw.get("title"),
             "country": raw.get("country"),
@@ -217,15 +240,23 @@ def main() -> None:
             send_telegram(msg)
             entry["result_alert_sent"] = True
 
+    # --- Ringkasan mingguan (sekali per minggu kalender, biar sekalian jadi alat cek sistem jalan) ---
+    current_week_key = f"{now.isocalendar()[0]}-W{now.isocalendar()[1]}"
+    if meta.get("last_summary_week") != current_week_key:
+        summary_msg = compose_weekly_summary(matched_events)
+        send_telegram(summary_msg)
+        meta["last_summary_week"] = current_week_key
+
     # buang event lama (>10 hari) biar state.json nggak membengkak terus
     cutoff = now - dt.timedelta(days=10)
     state = {
         k: v for k, v in state.items()
-        if dt.datetime.fromisoformat(v["event_time"]) > cutoff
+        if k != "__meta__" and dt.datetime.fromisoformat(v["event_time"]) > cutoff
     }
+    state["__meta__"] = meta
 
     save_state(state)
-    print(f"Done. {len(state)} event tersimpan di state.")
+    print(f"Done. {len(state)} event tersimpan di state. {len(matched_events)} event matched minggu ini.")
 
 
 if __name__ == "__main__":
