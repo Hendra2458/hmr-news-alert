@@ -1,4 +1,54 @@
 {
+  "USD_CPI m/m_2026-07-14T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-14T08:30:00-04:00",
+    "forecast": "-0.1%",
+    "pre_alert_sent": false,
+    "previous": "0.5%",
+    "result_alert_sent": false,
+    "title": "CPI m/m"
+  },
+  "USD_CPI y/y_2026-07-14T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-14T08:30:00-04:00",
+    "forecast": "3.8%",
+    "pre_alert_sent": false,
+    "previous": "4.2%",
+    "result_alert_sent": false,
+    "title": "CPI y/y"
+  },
+  "USD_Core CPI m/m_2026-07-14T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-14T08:30:00-04:00",
+    "forecast": "0.2%",
+    "pre_alert_sent": false,
+    "previous": "0.2%",
+    "result_alert_sent": false,
+    "title": "Core CPI m/m"
+  },
+  "USD_Core CPI y/y_2026-07-14T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-14T08:30:00-04:00",
+    "forecast": "2.8%",
+    "pre_alert_sent": false,
+    "previous": "2.9%",
+    "result_alert_sent": false,
+    "title": "Core CPI y/y"
+  },
+  "USD_Core PPI m/m_2026-07-15T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-15T08:30:00-04:00",
+    "forecast": "0.3%",
+    "pre_alert_sent": false,
+    "previous": "0.4%",
+    "result_alert_sent": false,
+    "title": "Core PPI m/m"
+  },
   "USD_FOMC Meeting Minutes_2026-07-08T14:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -9,6 +59,26 @@
     "result_alert_sent": false,
     "title": "FOMC Meeting Minutes"
   },
+  "USD_Fed Chairman Warsh Testifies_2026-07-14T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-14T10:00:00-04:00",
+    "forecast": "",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "Fed Chairman Warsh Testifies"
+  },
+  "USD_Fed Chairman Warsh Testifies_2026-07-15T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-15T10:00:00-04:00",
+    "forecast": "",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "Fed Chairman Warsh Testifies"
+  },
   "USD_ISM Services PMI_2026-07-06T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -18,6 +88,16 @@
     "previous": "54.5",
     "result_alert_sent": false,
     "title": "ISM Services PMI"
+  },
+  "USD_PPI m/m_2026-07-15T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-15T08:30:00-04:00",
+    "forecast": "0.0%",
+    "pre_alert_sent": false,
+    "previous": "1.1%",
+    "result_alert_sent": false,
+    "title": "PPI m/m"
   },
   "__meta__": {
     "last_summary_week": "2026-W28"
