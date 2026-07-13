@@ -31,7 +31,7 @@ STATE_PATH = os.path.join(os.path.dirname(__file__), "state.json")
 TELEGRAM_BOT_TOKEN = os.environ.get("HMR_TG_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("HMR_TG_CHAT_ID", "")
 
-IMPACT_FILTER = {"High"}
+IMPACT_FILTER = {"High", "Medium"}
 CURRENCY_FILTER = {"USD"}
 PRE_ALERT_MINUTES = 30
 RESULT_CHECK_DELAY_MINUTES = 3
@@ -111,21 +111,22 @@ def save_state(state: dict) -> None:
 
 
 def compose_weekly_summary(matched_events: list) -> str:
-    """matched_events: list of (event_time_utc, title, country)"""
+    """matched_events: list of (event_time_utc, title, country, impact)"""
     if not matched_events:
-        return "📅 <b>Ringkasan Minggu Ini</b>\n\nTidak ada event High Impact USD yang terdeteksi minggu ini."
+        return "📅 <b>Ringkasan Minggu Ini</b>\n\nTidak ada event High/Medium Impact USD yang terdeteksi minggu ini."
 
     matched_events.sort(key=lambda x: x[0])
-    lines = ["📅 <b>Ringkasan News High-Impact USD Minggu Ini</b>\n"]
+    lines = ["📅 <b>Ringkasan News High/Medium Impact USD Minggu Ini</b>\n"]
     current_day = None
-    for event_time_utc, title, country in matched_events:
+    for event_time_utc, title, country, impact in matched_events:
         wib = event_time_utc + dt.timedelta(hours=7)
         day_str = wib.strftime("%A, %d %b %Y")
         if day_str != current_day:
             lines.append(f"\n<b>{day_str}</b>")
             current_day = day_str
-        lines.append(f"  {wib.strftime('%H:%M')} WIB - {title}")
-    lines.append(f"\nTotal: {len(matched_events)} event. Alert H-30 menit & hasil rilis akan dikirim otomatis per event.")
+        tag = "🔴" if (impact or "").lower() == "high" else "🟡"
+        lines.append(f"  {wib.strftime('%H:%M')} WIB {tag} [{(impact or '?').upper()}] - {title}")
+    lines.append(f"\nTotal: {len(matched_events)} event. 🔴=High 🟡=Medium. Alert H-30 menit & hasil rilis akan dikirim otomatis per event.")
     return "\n".join(lines)
 
 
@@ -174,6 +175,13 @@ def main() -> None:
 
     matched_events = []  # buat ringkasan mingguan: (event_time_utc, title, country)
 
+    # --- DEBUG SEMENTARA: cek raw impact/country buat event yang sering beda rating antar provider ---
+    debug_keywords = ("retail sales", "jobless claims", "unemployment claims")
+    for raw in raw_events:
+        t = (raw.get("title") or "").lower()
+        if any(k in t for k in debug_keywords):
+            print(f"[RAW-DEBUG] title='{raw.get('title')}' country='{raw.get('country')}' impact='{raw.get('impact')}' date='{raw.get('date')}'")
+
     for raw in raw_events:
         if raw.get("impact") not in IMPACT_FILTER:
             continue
@@ -184,10 +192,11 @@ def main() -> None:
             continue
 
         eid = make_event_id(raw, event_time)
-        matched_events.append((event_time.astimezone(dt.timezone.utc), raw.get("title"), raw.get("country")))
+        matched_events.append((event_time.astimezone(dt.timezone.utc), raw.get("title"), raw.get("country"), raw.get("impact")))
         entry = state.get(eid, {
             "title": raw.get("title"),
             "country": raw.get("country"),
+            "impact": raw.get("impact"),
             "event_time": event_time.isoformat(),
             "forecast": raw.get("forecast", ""),
             "previous": raw.get("previous", ""),
@@ -199,6 +208,7 @@ def main() -> None:
         entry["forecast"] = raw.get("forecast", entry["forecast"])
         entry["previous"] = raw.get("previous", entry["previous"])
         entry["actual"] = raw.get("actual", entry["actual"])
+        entry["impact"] = raw.get("impact", entry.get("impact", ""))
         state[eid] = entry
 
         minutes_to_event = (event_time - now).total_seconds() / 60.0
@@ -213,8 +223,9 @@ def main() -> None:
         if not entry["pre_alert_sent"] and 0 <= minutes_to_event <= PRE_ALERT_MINUTES:
             bias = get_bias_note(entry["title"])
             event_time_wib = event_time.astimezone(dt.timezone.utc) + dt.timedelta(hours=7)
+            impact_label = f"[{entry.get('impact', '').upper()}] "
             msg = (
-                f"⏰ <b>H-{int(minutes_to_event)} menit: {entry['title']} ({entry['country']})</b>\n"
+                f"⏰ <b>{impact_label}H-{int(minutes_to_event)} menit: {entry['title']} ({entry['country']})</b>\n"
                 f"Jadwal: {event_time_wib.strftime('%Y-%m-%d %H:%M')} WIB\n"
                 f"Forecast: {entry['forecast'] or '-'} | Previous: {entry['previous'] or '-'}\n\n"
                 f"📌 Catatan XAUUSD: {bias}"
@@ -242,9 +253,10 @@ def main() -> None:
                 pass
 
             directional_call = compute_directional_call(entry["title"], entry["forecast"], entry["actual"])
+            impact_label = f"[{entry.get('impact', '').upper()}] "
 
             msg = (
-                f"✅ <b>Hasil: {entry['title']} ({entry['country']})</b>\n"
+                f"✅ <b>{impact_label}Hasil: {entry['title']} ({entry['country']})</b>\n"
                 f"Actual: {entry['actual']} | Forecast: {entry['forecast'] or '-'} | Previous: {entry['previous'] or '-'}\n"
                 f"{surprise}\n\n"
                 f"{directional_call}"
