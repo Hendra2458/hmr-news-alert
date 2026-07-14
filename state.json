@@ -81,7 +81,7 @@
     "event_time": "2026-07-14T10:00:00-04:00",
     "forecast": "",
     "impact": "High",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "",
     "result_alert_sent": false,
     "title": "Fed Chairman Warsh Testifies"
