@@ -9,12 +9,12 @@ disimpan di file JSON `state.json` yang di-commit balik ke repo tiap run.
 Alur tiap kali dijalankan:
   1. Fetch feed ForexFactory minggu ini
   2. Update/merge ke state.json (event baru masuk, actual value ter-update)
-  3. Cek semua event yang belum di-pre-alert & sudah masuk window H-35 s/d H-15 -> kirim
+  3. Cek semua event yang belum di-pre-alert & sudah masuk window H-30 -> kirim
   4. Cek semua event yang belum di-result-alert & actual-nya sudah terisi -> kirim
   5. Simpan state.json (di-commit oleh workflow, bukan oleh script ini)
 
 ENV VARS yang dibutuhkan (diisi lewat GitHub Actions Secrets):
-  HMR_TG_TOKEN      - token bot Telegram
+  HMR_TG_TOKEN     - token bot Telegram
   HMR_TG_CHAT_ID   - chat id Telegram
 """
 
@@ -33,6 +33,7 @@ TELEGRAM_CHAT_ID = os.environ.get("HMR_TG_CHAT_ID", "")
 
 IMPACT_FILTER = {"High", "Medium"}
 CURRENCY_FILTER = {"USD"}
+PRE_ALERT_MINUTES = 45
 RESULT_CHECK_DELAY_MINUTES = 3
 
 XAU_BIAS_NOTES = {
@@ -48,6 +49,8 @@ XAU_BIAS_NOTES = {
     "unemployment claims": ("inverse", "Initial jobless claims naik -> USD melemah -> XAUUSD berpotensi naik."),
 }
 
+# Event yang biasanya bukan angka "actual vs forecast" biasa (rate decision,
+# statement) - tetap dikasih catatan tapi nggak dipaksakan hitung bearish/bullish otomatis.
 NON_NUMERIC_EVENTS = ("fomc", "federal funds rate", "rate decision", "press conference", "speaks", "speech")
 
 
@@ -108,6 +111,7 @@ def save_state(state: dict) -> None:
 
 
 def compose_weekly_summary(matched_events: list) -> str:
+    """matched_events: list of (event_time_utc, title, country, impact)"""
     if not matched_events:
         return "📅 <b>Ringkasan Minggu Ini</b>\n\nTidak ada event High/Medium Impact USD yang terdeteksi minggu ini."
 
@@ -167,13 +171,11 @@ def main() -> None:
     state = load_state()
     meta = state.get("__meta__", {"last_summary_week": ""})
     raw_events = fetch_calendar()
-    
-    # Waktu sekarang murni UTC aware
     now = dt.datetime.now(dt.timezone.utc)
 
-    matched_events = []
+    matched_events = []  # buat ringkasan mingguan: (event_time_utc, title, country)
 
-    # --- DEBUG SEMENTARA ---
+    # --- DEBUG SEMENTARA: cek raw impact/country buat event yang sering beda rating antar provider ---
     debug_keywords = ("retail sales", "jobless claims", "unemployment claims")
     for raw in raw_events:
         t = (raw.get("title") or "").lower()
@@ -202,18 +204,14 @@ def main() -> None:
             "pre_alert_sent": False,
             "result_alert_sent": False,
         })
-        
-        # Refresh data terbaru
+        # refresh data terbaru (forecast/actual bisa berubah dari run sebelumnya)
         entry["forecast"] = raw.get("forecast", entry["forecast"])
         entry["previous"] = raw.get("previous", entry["previous"])
         entry["actual"] = raw.get("actual", entry["actual"])
         entry["impact"] = raw.get("impact", entry.get("impact", ""))
         state[eid] = entry
 
-        # === FIX TIMEZONE & TIMING SINKRONISASI ===
-        # Memaksa event_time dari JSON menjadi zona UTC murni agar klop dengan objek `now`
-        event_time_utc = event_time.astimezone(dt.timezone.utc)
-        minutes_to_event = (event_time_utc - now).total_seconds() / 60.0
+        minutes_to_event = (event_time - now).total_seconds() / 60.0
         minutes_since_event = -minutes_to_event
 
         print(
@@ -221,13 +219,17 @@ def main() -> None:
             f"pre_sent={entry['pre_alert_sent']} | result_sent={entry['result_alert_sent']} | actual='{entry['actual']}'"
         )
 
-        # --- Pre-alert H-30 menit (Dengan toleransi window range 15 hingga 35 menit) ---
-        if not entry["pre_alert_sent"] and 15 <= minutes_to_event <= 35:
+        # --- Pre-alert H-30 menit (window diperlebar -20..30 biar tahan delay cron GitHub Actions) ---
+        if not entry["pre_alert_sent"] and -20 <= minutes_to_event <= PRE_ALERT_MINUTES:
             bias = get_bias_note(entry["title"])
-            event_time_wib = event_time_utc + dt.timedelta(hours=7)
+            event_time_wib = event_time.astimezone(dt.timezone.utc) + dt.timedelta(hours=7)
             impact_label = f"[{entry.get('impact', '').upper()}] "
+            if minutes_to_event >= 0:
+                timing_label = f"H-{int(minutes_to_event)} menit"
+            else:
+                timing_label = f"(terlambat {int(-minutes_to_event)} menit, cron delay)"
             msg = (
-                f"⏰ <b>{impact_label}H-{int(minutes_to_event)} menit: {entry['title']} ({entry['country']})</b>\n"
+                f"⏰ <b>{impact_label}{timing_label}: {entry['title']} ({entry['country']})</b>\n"
                 f"Jadwal: {event_time_wib.strftime('%Y-%m-%d %H:%M')} WIB\n"
                 f"Forecast: {entry['forecast'] or '-'} | Previous: {entry['previous'] or '-'}\n\n"
                 f"📌 Catatan XAUUSD: {bias}"
@@ -266,7 +268,7 @@ def main() -> None:
             ok = send_telegram(msg)
             entry["result_alert_sent"] = ok
 
-    # --- Ringkasan mingguan ---
+    # --- Ringkasan mingguan (sekali per minggu kalender, biar sekalian jadi alat cek sistem jalan) ---
     current_week_key = f"{now.isocalendar()[0]}-W{now.isocalendar()[1]}"
     print(f"[DEBUG] current_week_key={current_week_key} | last_summary_week={meta.get('last_summary_week')}")
     if meta.get("last_summary_week") != current_week_key:
@@ -274,11 +276,11 @@ def main() -> None:
         if send_telegram(summary_msg):
             meta["last_summary_week"] = current_week_key
 
-    # Buang data yang sudah lewat dari 10 hari agar state.json tidak obesitas
+    # buang event lama (>10 hari) biar state.json nggak membengkak terus
     cutoff = now - dt.timedelta(days=10)
     state = {
         k: v for k, v in state.items()
-        if k != "__meta__" and dt.datetime.fromisoformat(v["event_time"]).astimezone(dt.timezone.utc) > cutoff
+        if k != "__meta__" and dt.datetime.fromisoformat(v["event_time"]) > cutoff
     }
     state["__meta__"] = meta
 
