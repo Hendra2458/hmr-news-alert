@@ -2,7 +2,6 @@ name: HMR News Alert
 
 on:
   schedule:
-    # Berjalan otomatis setiap 5 menit
     - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
@@ -33,10 +32,5 @@ jobs:
           git config user.name "hmr-bot"
           git config user.email "hmr-bot@users.noreply.github.com"
           git add state.json
-          
-          # Ambil data terbaru dari repo (rebase) sebelum push untuk menghindari konflik jika cron berjalan rapat
-          git pull --rebase origin main
-          
-          # Lakukan commit dan push hanya jika ada perubahan di state.json
           git diff --staged --quiet || git commit -m "update state [skip ci]"
           git push
