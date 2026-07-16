@@ -60,7 +60,7 @@
     "event_time": "2026-07-16T08:30:00-04:00",
     "forecast": "0.0%",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "0.8%",
     "result_alert_sent": false,
     "title": "Core Retail Sales m/m"
@@ -104,7 +104,7 @@
     "event_time": "2026-07-16T08:30:00-04:00",
     "forecast": "12.7",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "10.3",
     "result_alert_sent": false,
     "title": "Philly Fed Manufacturing Index"
@@ -148,7 +148,7 @@
     "event_time": "2026-07-16T08:30:00-04:00",
     "forecast": "0.2%",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "0.9%",
     "result_alert_sent": false,
     "title": "Retail Sales m/m"
@@ -159,7 +159,7 @@
     "event_time": "2026-07-16T08:30:00-04:00",
     "forecast": "216K",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "215K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
