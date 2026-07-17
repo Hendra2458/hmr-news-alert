@@ -137,7 +137,7 @@
     "event_time": "2026-07-16T21:00:00-04:00",
     "forecast": "",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "",
     "result_alert_sent": false,
     "title": "President Trump Speaks"
