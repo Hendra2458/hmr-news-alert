@@ -164,6 +164,17 @@
     "result_alert_sent": false,
     "title": "Unemployment Claims"
   },
+  "USD_Unemployment Claims_2026-07-23T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-23T08:30:00-04:00",
+    "forecast": "211K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "208K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
   "__meta__": {
     "last_summary_week": "2026-W29"
   }
