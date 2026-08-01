@@ -87,17 +87,6 @@
     "result_alert_sent": false,
     "title": "Federal Funds Rate"
   },
-  "USD_President Trump Speaks_2026-07-22T15:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-22T15:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "President Trump Speaks"
-  },
   "USD_President Trump Speaks_2026-07-27T14:50:00-04:00": {
     "actual": "",
     "country": "USD",
