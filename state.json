@@ -1,146 +1,91 @@
 {
-  "USD_CPI m/m_2026-07-14T08:30:00-04:00": {
+  "USD_Advance GDP Price Index q/q_2026-07-30T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
-    "event_time": "2026-07-14T08:30:00-04:00",
-    "forecast": "-0.1%",
+    "event_time": "2026-07-30T08:30:00-04:00",
+    "forecast": "4.1%",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "3.6%",
+    "result_alert_sent": false,
+    "title": "Advance GDP Price Index q/q"
+  },
+  "USD_Advance GDP q/q_2026-07-30T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-30T08:30:00-04:00",
+    "forecast": "2.1%",
     "impact": "High",
     "pre_alert_sent": false,
-    "previous": "0.5%",
+    "previous": "2.0%",
     "result_alert_sent": false,
-    "title": "CPI m/m"
+    "title": "Advance GDP q/q"
   },
-  "USD_CPI y/y_2026-07-14T08:30:00-04:00": {
+  "USD_CB Consumer Confidence_2026-07-28T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
-    "event_time": "2026-07-14T08:30:00-04:00",
-    "forecast": "3.8%",
-    "impact": "High",
+    "event_time": "2026-07-28T10:00:00-04:00",
+    "forecast": "92.4",
+    "impact": "Medium",
     "pre_alert_sent": false,
-    "previous": "4.2%",
+    "previous": "91.2",
     "result_alert_sent": false,
-    "title": "CPI y/y"
+    "title": "CB Consumer Confidence"
   },
-  "USD_Core CPI m/m_2026-07-14T08:30:00-04:00": {
+  "USD_Core PCE Price Index m/m_2026-07-30T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
-    "event_time": "2026-07-14T08:30:00-04:00",
+    "event_time": "2026-07-30T08:30:00-04:00",
     "forecast": "0.2%",
     "impact": "High",
     "pre_alert_sent": false,
-    "previous": "0.2%",
+    "previous": "0.3%",
     "result_alert_sent": false,
-    "title": "Core CPI m/m"
+    "title": "Core PCE Price Index m/m"
   },
-  "USD_Core CPI y/y_2026-07-14T08:30:00-04:00": {
+  "USD_Employment Cost Index q/q_2026-07-31T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
-    "event_time": "2026-07-14T08:30:00-04:00",
-    "forecast": "2.8%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "2.9%",
-    "result_alert_sent": false,
-    "title": "Core CPI y/y"
-  },
-  "USD_Core PPI m/m_2026-07-15T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-15T08:30:00-04:00",
-    "forecast": "0.3%",
-    "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "0.4%",
-    "result_alert_sent": false,
-    "title": "Core PPI m/m"
-  },
-  "USD_Core Retail Sales m/m_2026-07-16T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-16T08:30:00-04:00",
-    "forecast": "0.0%",
+    "event_time": "2026-07-31T08:30:00-04:00",
+    "forecast": "0.8%",
     "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "0.8%",
+    "pre_alert_sent": false,
+    "previous": "0.9%",
     "result_alert_sent": false,
-    "title": "Core Retail Sales m/m"
+    "title": "Employment Cost Index q/q"
   },
-  "USD_Fed Chairman Warsh Testifies_2026-07-14T10:00:00-04:00": {
+  "USD_FOMC Press Conference_2026-07-29T14:30:00-04:00": {
     "actual": "",
     "country": "USD",
-    "event_time": "2026-07-14T10:00:00-04:00",
+    "event_time": "2026-07-29T14:30:00-04:00",
     "forecast": "",
     "impact": "High",
     "pre_alert_sent": false,
     "previous": "",
     "result_alert_sent": false,
-    "title": "Fed Chairman Warsh Testifies"
+    "title": "FOMC Press Conference"
   },
-  "USD_Fed Chairman Warsh Testifies_2026-07-15T10:00:00-04:00": {
+  "USD_FOMC Statement_2026-07-29T14:00:00-04:00": {
     "actual": "",
     "country": "USD",
-    "event_time": "2026-07-15T10:00:00-04:00",
+    "event_time": "2026-07-29T14:00:00-04:00",
     "forecast": "",
     "impact": "High",
-    "pre_alert_sent": true,
+    "pre_alert_sent": false,
     "previous": "",
     "result_alert_sent": false,
-    "title": "Fed Chairman Warsh Testifies"
+    "title": "FOMC Statement"
   },
-  "USD_PPI m/m_2026-07-15T08:30:00-04:00": {
+  "USD_Federal Funds Rate_2026-07-29T14:00:00-04:00": {
     "actual": "",
     "country": "USD",
-    "event_time": "2026-07-15T08:30:00-04:00",
-    "forecast": "0.0%",
+    "event_time": "2026-07-29T14:00:00-04:00",
+    "forecast": "3.75%",
     "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "1.1%",
+    "pre_alert_sent": false,
+    "previous": "3.75%",
     "result_alert_sent": false,
-    "title": "PPI m/m"
-  },
-  "USD_Philly Fed Manufacturing Index_2026-07-16T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-16T08:30:00-04:00",
-    "forecast": "12.7",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "10.3",
-    "result_alert_sent": false,
-    "title": "Philly Fed Manufacturing Index"
-  },
-  "USD_Prelim UoM Consumer Sentiment_2026-07-17T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-17T10:00:00-04:00",
-    "forecast": "51.0",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "48.9",
-    "result_alert_sent": false,
-    "title": "Prelim UoM Consumer Sentiment"
-  },
-  "USD_Prelim UoM Inflation Expectations_2026-07-17T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-17T10:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "4.6%",
-    "result_alert_sent": false,
-    "title": "Prelim UoM Inflation Expectations"
-  },
-  "USD_President Trump Speaks_2026-07-16T21:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-16T21:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "President Trump Speaks"
+    "title": "Federal Funds Rate"
   },
   "USD_President Trump Speaks_2026-07-22T15:00:00-04:00": {
     "actual": "",
@@ -153,27 +98,38 @@
     "result_alert_sent": false,
     "title": "President Trump Speaks"
   },
-  "USD_Retail Sales m/m_2026-07-16T08:30:00-04:00": {
+  "USD_President Trump Speaks_2026-07-27T14:50:00-04:00": {
     "actual": "",
     "country": "USD",
-    "event_time": "2026-07-16T08:30:00-04:00",
-    "forecast": "0.2%",
+    "event_time": "2026-07-27T14:50:00-04:00",
+    "forecast": "",
     "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "0.9%",
+    "pre_alert_sent": false,
+    "previous": "",
     "result_alert_sent": false,
-    "title": "Retail Sales m/m"
+    "title": "President Trump Speaks"
   },
-  "USD_Unemployment Claims_2026-07-16T08:30:00-04:00": {
+  "USD_Revised UoM Consumer Sentiment_2026-07-31T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
-    "event_time": "2026-07-16T08:30:00-04:00",
-    "forecast": "216K",
+    "event_time": "2026-07-31T10:00:00-04:00",
+    "forecast": "53.9",
     "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "215K",
+    "pre_alert_sent": false,
+    "previous": "54.4",
     "result_alert_sent": false,
-    "title": "Unemployment Claims"
+    "title": "Revised UoM Consumer Sentiment"
+  },
+  "USD_Revised UoM Inflation Expectations_2026-07-31T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-31T10:00:00-04:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "4.2%",
+    "result_alert_sent": false,
+    "title": "Revised UoM Inflation Expectations"
   },
   "USD_Unemployment Claims_2026-07-23T08:30:00-04:00": {
     "actual": "",
@@ -183,6 +139,17 @@
     "impact": "Medium",
     "pre_alert_sent": false,
     "previous": "208K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Claims_2026-07-30T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-07-30T08:30:00-04:00",
+    "forecast": "201K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "187K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
   },
