@@ -148,7 +148,7 @@
     "event_time": "2026-08-04T10:00:00-04:00",
     "forecast": "7.44M",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "7.59M",
     "result_alert_sent": false,
     "title": "JOLTS Job Openings"
