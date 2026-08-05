@@ -5,7 +5,7 @@
     "event_time": "2026-08-05T08:15:00-04:00",
     "forecast": "68K",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "98K",
     "result_alert_sent": false,
     "title": "ADP Non-Farm Employment Change"
