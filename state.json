@@ -225,7 +225,7 @@
     "event_time": "2026-08-06T08:30:00-04:00",
     "forecast": "203K",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "197K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
