@@ -38,7 +38,7 @@
     "event_time": "2026-08-07T08:30:00-04:00",
     "forecast": "0.3%",
     "impact": "High",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "0.3%",
     "result_alert_sent": false,
     "title": "Average Hourly Earnings m/m"
@@ -159,7 +159,7 @@
     "event_time": "2026-08-07T08:30:00-04:00",
     "forecast": "85K",
     "impact": "High",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "57K",
     "result_alert_sent": false,
     "title": "Non-Farm Employment Change"
@@ -225,7 +225,7 @@
     "event_time": "2026-08-07T08:30:00-04:00",
     "forecast": "4.2%",
     "impact": "High",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "4.2%",
     "result_alert_sent": false,
     "title": "Unemployment Rate"
