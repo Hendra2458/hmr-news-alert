@@ -76,28 +76,6 @@
     "result_alert_sent": false,
     "title": "FOMC Press Conference"
   },
-  "USD_FOMC Statement_2026-07-29T14:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-29T14:00:00-04:00",
-    "forecast": "",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "FOMC Statement"
-  },
-  "USD_Federal Funds Rate_2026-07-29T14:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-29T14:00:00-04:00",
-    "forecast": "3.75%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "3.75%",
-    "result_alert_sent": false,
-    "title": "Federal Funds Rate"
-  },
   "USD_ISM Manufacturing PMI_2026-08-03T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
