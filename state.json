@@ -65,17 +65,6 @@
     "result_alert_sent": false,
     "title": "Employment Cost Index q/q"
   },
-  "USD_FOMC Press Conference_2026-07-29T14:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-29T14:30:00-04:00",
-    "forecast": "",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "FOMC Press Conference"
-  },
   "USD_ISM Manufacturing PMI_2026-08-03T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
