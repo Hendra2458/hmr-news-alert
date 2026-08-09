@@ -10,28 +10,6 @@
     "result_alert_sent": false,
     "title": "ADP Non-Farm Employment Change"
   },
-  "USD_Advance GDP Price Index q/q_2026-07-30T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-30T08:30:00-04:00",
-    "forecast": "4.1%",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "3.6%",
-    "result_alert_sent": false,
-    "title": "Advance GDP Price Index q/q"
-  },
-  "USD_Advance GDP q/q_2026-07-30T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-30T08:30:00-04:00",
-    "forecast": "2.1%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "2.0%",
-    "result_alert_sent": false,
-    "title": "Advance GDP q/q"
-  },
   "USD_Average Hourly Earnings m/m_2026-08-07T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -86,17 +64,6 @@
     "previous": "2.6%",
     "result_alert_sent": false,
     "title": "Core CPI y/y"
-  },
-  "USD_Core PCE Price Index m/m_2026-07-30T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-30T08:30:00-04:00",
-    "forecast": "0.2%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.3%",
-    "result_alert_sent": false,
-    "title": "Core PCE Price Index m/m"
   },
   "USD_Core PPI m/m_2026-08-13T08:30:00-04:00": {
     "actual": "",
@@ -262,17 +229,6 @@
     "previous": "4.2%",
     "result_alert_sent": false,
     "title": "Revised UoM Inflation Expectations"
-  },
-  "USD_Unemployment Claims_2026-07-30T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-30T08:30:00-04:00",
-    "forecast": "201K",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "187K",
-    "result_alert_sent": false,
-    "title": "Unemployment Claims"
   },
   "USD_Unemployment Claims_2026-08-06T08:30:00-04:00": {
     "actual": "",
