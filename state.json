@@ -87,17 +87,6 @@
     "result_alert_sent": false,
     "title": "Core Retail Sales m/m"
   },
-  "USD_Employment Cost Index q/q_2026-07-31T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-31T08:30:00-04:00",
-    "forecast": "0.8%",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "0.9%",
-    "result_alert_sent": false,
-    "title": "Employment Cost Index q/q"
-  },
   "USD_ISM Manufacturing PMI_2026-08-03T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
