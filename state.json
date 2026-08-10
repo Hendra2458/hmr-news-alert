@@ -197,28 +197,6 @@
     "result_alert_sent": false,
     "title": "Retail Sales m/m"
   },
-  "USD_Revised UoM Consumer Sentiment_2026-07-31T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-31T10:00:00-04:00",
-    "forecast": "53.9",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "54.4",
-    "result_alert_sent": false,
-    "title": "Revised UoM Consumer Sentiment"
-  },
-  "USD_Revised UoM Inflation Expectations_2026-07-31T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-07-31T10:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "4.2%",
-    "result_alert_sent": false,
-    "title": "Revised UoM Inflation Expectations"
-  },
   "USD_Unemployment Claims_2026-08-06T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
