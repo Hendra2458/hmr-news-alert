@@ -71,7 +71,7 @@
     "event_time": "2026-08-13T08:30:00-04:00",
     "forecast": "0.3%",
     "impact": "High",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "0.2%",
     "result_alert_sent": false,
     "title": "Core PPI m/m"
@@ -148,7 +148,7 @@
     "event_time": "2026-08-13T08:30:00-04:00",
     "forecast": "0.2%",
     "impact": "High",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "-0.3%",
     "result_alert_sent": false,
     "title": "PPI m/m"
@@ -214,7 +214,7 @@
     "event_time": "2026-08-13T08:30:00-04:00",
     "forecast": "202K",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "199K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
