@@ -87,28 +87,6 @@
     "result_alert_sent": false,
     "title": "Core Retail Sales m/m"
   },
-  "USD_ISM Manufacturing PMI_2026-08-03T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-03T10:00:00-04:00",
-    "forecast": "54.0",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "53.3",
-    "result_alert_sent": false,
-    "title": "ISM Manufacturing PMI"
-  },
-  "USD_ISM Manufacturing Prices_2026-08-03T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-03T10:00:00-04:00",
-    "forecast": "70.0",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "73.0",
-    "result_alert_sent": false,
-    "title": "ISM Manufacturing Prices"
-  },
   "USD_ISM Services PMI_2026-08-05T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
