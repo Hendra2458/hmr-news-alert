@@ -137,7 +137,7 @@
     "event_time": "2026-08-14T10:00:00-04:00",
     "forecast": "54.7",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "54.4",
     "result_alert_sent": false,
     "title": "Prelim UoM Consumer Sentiment"
@@ -148,7 +148,7 @@
     "event_time": "2026-08-14T10:00:00-04:00",
     "forecast": "",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "4.2%",
     "result_alert_sent": false,
     "title": "Prelim UoM Inflation Expectations"
