@@ -1,15 +1,4 @@
 {
-  "USD_ADP Non-Farm Employment Change_2026-08-05T08:15:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-05T08:15:00-04:00",
-    "forecast": "68K",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "98K",
-    "result_alert_sent": false,
-    "title": "ADP Non-Farm Employment Change"
-  },
   "USD_Average Hourly Earnings m/m_2026-08-07T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
