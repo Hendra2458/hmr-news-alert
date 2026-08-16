@@ -164,17 +164,6 @@
     "result_alert_sent": false,
     "title": "Retail Sales m/m"
   },
-  "USD_Unemployment Claims_2026-08-06T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-06T08:30:00-04:00",
-    "forecast": "203K",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "197K",
-    "result_alert_sent": false,
-    "title": "Unemployment Claims"
-  },
   "USD_Unemployment Claims_2026-08-13T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
