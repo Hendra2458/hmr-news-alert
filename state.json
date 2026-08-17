@@ -1,15 +1,4 @@
 {
-  "USD_Average Hourly Earnings m/m_2026-08-07T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-07T08:30:00-04:00",
-    "forecast": "0.3%",
-    "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "0.3%",
-    "result_alert_sent": false,
-    "title": "Average Hourly Earnings m/m"
-  },
   "USD_CPI m/m_2026-08-12T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -86,17 +75,6 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "FOMC Meeting Minutes"
-  },
-  "USD_Non-Farm Employment Change_2026-08-07T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-07T08:30:00-04:00",
-    "forecast": "85K",
-    "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "57K",
-    "result_alert_sent": false,
-    "title": "Non-Farm Employment Change"
   },
   "USD_PPI m/m_2026-08-13T08:30:00-04:00": {
     "actual": "",
@@ -185,17 +163,6 @@
     "previous": "209K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
-  },
-  "USD_Unemployment Rate_2026-08-07T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-07T08:30:00-04:00",
-    "forecast": "4.2%",
-    "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "4.2%",
-    "result_alert_sent": false,
-    "title": "Unemployment Rate"
   },
   "__meta__": {
     "last_summary_week": "2026-W34"
