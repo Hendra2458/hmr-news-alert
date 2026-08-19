@@ -71,7 +71,7 @@
     "event_time": "2026-08-19T14:00:00-04:00",
     "forecast": "",
     "impact": "High",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "",
     "result_alert_sent": false,
     "title": "FOMC Meeting Minutes"
