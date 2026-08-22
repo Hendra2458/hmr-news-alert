@@ -1,48 +1,4 @@
 {
-  "USD_CPI m/m_2026-08-12T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-12T08:30:00-04:00",
-    "forecast": "0.1%",
-    "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "-0.4%",
-    "result_alert_sent": false,
-    "title": "CPI m/m"
-  },
-  "USD_CPI y/y_2026-08-12T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-12T08:30:00-04:00",
-    "forecast": "3.4%",
-    "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "3.5%",
-    "result_alert_sent": false,
-    "title": "CPI y/y"
-  },
-  "USD_Core CPI m/m_2026-08-12T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-12T08:30:00-04:00",
-    "forecast": "0.2%",
-    "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "0.0%",
-    "result_alert_sent": false,
-    "title": "Core CPI m/m"
-  },
-  "USD_Core CPI y/y_2026-08-12T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-12T08:30:00-04:00",
-    "forecast": "2.5%",
-    "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "2.6%",
-    "result_alert_sent": false,
-    "title": "Core CPI y/y"
-  },
   "USD_Core PPI m/m_2026-08-13T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
