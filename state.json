@@ -1,4 +1,26 @@
 {
+  "USD_CB Consumer Confidence_2026-08-25T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-08-25T10:00:00-04:00",
+    "forecast": "90.3",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "90.8",
+    "result_alert_sent": false,
+    "title": "CB Consumer Confidence"
+  },
+  "USD_Core PCE Price Index m/m_2026-08-26T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-08-26T08:30:00-04:00",
+    "forecast": "0.2%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.1%",
+    "result_alert_sent": false,
+    "title": "Core PCE Price Index m/m"
+  },
   "USD_Core PPI m/m_2026-08-13T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -32,6 +54,17 @@
     "result_alert_sent": false,
     "title": "FOMC Meeting Minutes"
   },
+  "USD_Fed Chairman Warsh Speaks_2026-08-28T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-08-28T10:00:00-04:00",
+    "forecast": "",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "Fed Chairman Warsh Speaks"
+  },
   "USD_PPI m/m_2026-08-13T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -53,6 +86,39 @@
     "previous": "41.4",
     "result_alert_sent": false,
     "title": "Philly Fed Manufacturing Index"
+  },
+  "USD_Prelim Benchmark Payrolls Revision_2026-08-28T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-08-28T10:00:00-04:00",
+    "forecast": "",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "-911K",
+    "result_alert_sent": false,
+    "title": "Prelim Benchmark Payrolls Revision"
+  },
+  "USD_Prelim GDP Price Index q/q_2026-08-26T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-08-26T08:30:00-04:00",
+    "forecast": "6.2%",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "6.2%",
+    "result_alert_sent": false,
+    "title": "Prelim GDP Price Index q/q"
+  },
+  "USD_Prelim GDP q/q_2026-08-26T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-08-26T08:30:00-04:00",
+    "forecast": "1.5%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "1.5%",
+    "result_alert_sent": false,
+    "title": "Prelim GDP q/q"
   },
   "USD_Prelim UoM Consumer Sentiment_2026-08-14T10:00:00-04:00": {
     "actual": "",
@@ -120,6 +186,39 @@
     "result_alert_sent": false,
     "title": "Retail Sales m/m"
   },
+  "USD_Revised UoM Consumer Sentiment_2026-08-28T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-08-28T10:00:00-04:00",
+    "forecast": "51.0",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "51.0",
+    "result_alert_sent": false,
+    "title": "Revised UoM Consumer Sentiment"
+  },
+  "USD_Revised UoM Inflation Expectations_2026-08-28T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-08-28T10:00:00-04:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "4.3%",
+    "result_alert_sent": false,
+    "title": "Revised UoM Inflation Expectations"
+  },
+  "USD_Treasury Sec Bessent Speaks_2026-08-24T14:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-08-24T14:00:00-04:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "Treasury Sec Bessent Speaks"
+  },
   "USD_Unemployment Claims_2026-08-13T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -139,6 +238,17 @@
     "impact": "Medium",
     "pre_alert_sent": true,
     "previous": "209K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Claims_2026-08-27T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-08-27T08:30:00-04:00",
+    "forecast": "208K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "206K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
   },
