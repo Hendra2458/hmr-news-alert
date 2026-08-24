@@ -87,28 +87,6 @@
     "result_alert_sent": false,
     "title": "Prelim GDP q/q"
   },
-  "USD_Prelim UoM Consumer Sentiment_2026-08-14T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-14T10:00:00-04:00",
-    "forecast": "54.7",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "54.4",
-    "result_alert_sent": false,
-    "title": "Prelim UoM Consumer Sentiment"
-  },
-  "USD_Prelim UoM Inflation Expectations_2026-08-14T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-14T10:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "4.2%",
-    "result_alert_sent": false,
-    "title": "Prelim UoM Inflation Expectations"
-  },
   "USD_President Trump Speaks_2026-08-14T15:00:00-04:00": {
     "actual": "",
     "country": "USD",
