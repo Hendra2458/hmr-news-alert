@@ -21,17 +21,6 @@
     "result_alert_sent": false,
     "title": "Core PCE Price Index m/m"
   },
-  "USD_Core Retail Sales m/m_2026-08-14T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-14T08:30:00-04:00",
-    "forecast": "0.2%",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "-0.2%",
-    "result_alert_sent": false,
-    "title": "Core Retail Sales m/m"
-  },
   "USD_FOMC Meeting Minutes_2026-08-19T14:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -152,17 +141,6 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "President Trump Speaks"
-  },
-  "USD_Retail Sales m/m_2026-08-14T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-14T08:30:00-04:00",
-    "forecast": "0.1%",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "0.2%",
-    "result_alert_sent": false,
-    "title": "Retail Sales m/m"
   },
   "USD_Revised UoM Consumer Sentiment_2026-08-28T10:00:00-04:00": {
     "actual": "",
