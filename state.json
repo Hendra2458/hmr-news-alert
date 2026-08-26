@@ -16,7 +16,7 @@
     "event_time": "2026-08-26T08:30:00-04:00",
     "forecast": "0.2%",
     "impact": "High",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "0.1%",
     "result_alert_sent": false,
     "title": "Core PCE Price Index m/m"
@@ -71,7 +71,7 @@
     "event_time": "2026-08-26T08:30:00-04:00",
     "forecast": "6.2%",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "6.2%",
     "result_alert_sent": false,
     "title": "Prelim GDP Price Index q/q"
@@ -82,7 +82,7 @@
     "event_time": "2026-08-26T08:30:00-04:00",
     "forecast": "1.5%",
     "impact": "High",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "1.5%",
     "result_alert_sent": false,
     "title": "Prelim GDP q/q"
