@@ -21,17 +21,6 @@
     "result_alert_sent": false,
     "title": "Core PCE Price Index m/m"
   },
-  "USD_FOMC Meeting Minutes_2026-08-19T14:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-19T14:00:00-04:00",
-    "forecast": "",
-    "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "FOMC Meeting Minutes"
-  },
   "USD_Fed Chairman Warsh Speaks_2026-08-28T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -86,17 +75,6 @@
     "previous": "1.5%",
     "result_alert_sent": false,
     "title": "Prelim GDP q/q"
-  },
-  "USD_President Trump Speaks_2026-08-19T14:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-19T14:30:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "President Trump Speaks"
   },
   "USD_President Trump Speaks_2026-08-21T19:00:00-04:00": {
     "actual": "",
