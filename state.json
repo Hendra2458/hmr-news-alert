@@ -1,4 +1,26 @@
 {
+  "USD_ADP Non-Farm Employment Change_2026-09-02T08:15:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-02T08:15:00-04:00",
+    "forecast": "47K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "44K",
+    "result_alert_sent": false,
+    "title": "ADP Non-Farm Employment Change"
+  },
+  "USD_Average Hourly Earnings m/m_2026-09-04T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-04T08:30:00-04:00",
+    "forecast": "0.3%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.1%",
+    "result_alert_sent": false,
+    "title": "Average Hourly Earnings m/m"
+  },
   "USD_CB Consumer Confidence_2026-08-25T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -31,6 +53,61 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "Fed Chairman Warsh Speaks"
+  },
+  "USD_ISM Manufacturing PMI_2026-09-01T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-01T10:00:00-04:00",
+    "forecast": "55.2",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "55.6",
+    "result_alert_sent": false,
+    "title": "ISM Manufacturing PMI"
+  },
+  "USD_ISM Manufacturing Prices_2026-09-01T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-01T10:00:00-04:00",
+    "forecast": "71.2",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "71.1",
+    "result_alert_sent": false,
+    "title": "ISM Manufacturing Prices"
+  },
+  "USD_ISM Services PMI_2026-09-03T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-03T10:00:00-04:00",
+    "forecast": "54.1",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "54.1",
+    "result_alert_sent": false,
+    "title": "ISM Services PMI"
+  },
+  "USD_JOLTS Job Openings_2026-09-01T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-01T10:00:00-04:00",
+    "forecast": "7.33M",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "7.36M",
+    "result_alert_sent": false,
+    "title": "JOLTS Job Openings"
+  },
+  "USD_Non-Farm Employment Change_2026-09-04T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-04T08:30:00-04:00",
+    "forecast": "58K",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "-23K",
+    "result_alert_sent": false,
+    "title": "Non-Farm Employment Change"
   },
   "USD_Philly Fed Manufacturing Index_2026-08-20T08:30:00-04:00": {
     "actual": "",
@@ -152,6 +229,28 @@
     "previous": "206K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Claims_2026-09-03T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-03T08:30:00-04:00",
+    "forecast": "205K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "203K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Rate_2026-09-04T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-04T08:30:00-04:00",
+    "forecast": "4.1%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "4.1%",
+    "result_alert_sent": false,
+    "title": "Unemployment Rate"
   },
   "__meta__": {
     "last_summary_week": "2026-W35"
