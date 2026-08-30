@@ -109,17 +109,6 @@
     "result_alert_sent": false,
     "title": "Non-Farm Employment Change"
   },
-  "USD_Philly Fed Manufacturing Index_2026-08-20T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-20T08:30:00-04:00",
-    "forecast": "24.1",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "41.4",
-    "result_alert_sent": false,
-    "title": "Philly Fed Manufacturing Index"
-  },
   "USD_Prelim Benchmark Payrolls Revision_2026-08-28T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -207,17 +196,6 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "Treasury Sec Bessent Speaks"
-  },
-  "USD_Unemployment Claims_2026-08-20T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-20T08:30:00-04:00",
-    "forecast": "210K",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "209K",
-    "result_alert_sent": false,
-    "title": "Unemployment Claims"
   },
   "USD_Unemployment Claims_2026-08-27T08:30:00-04:00": {
     "actual": "",
