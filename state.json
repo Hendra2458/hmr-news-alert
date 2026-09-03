@@ -164,28 +164,6 @@
     "result_alert_sent": false,
     "title": "Revised UoM Inflation Expectations"
   },
-  "USD_Treasury Sec Bessent Speaks_2026-08-24T13:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-24T13:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "Treasury Sec Bessent Speaks"
-  },
-  "USD_Treasury Sec Bessent Speaks_2026-08-24T14:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-24T14:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "Treasury Sec Bessent Speaks"
-  },
   "USD_Unemployment Claims_2026-08-27T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
