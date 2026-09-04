@@ -21,17 +21,6 @@
     "result_alert_sent": false,
     "title": "Average Hourly Earnings m/m"
   },
-  "USD_CB Consumer Confidence_2026-08-25T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-25T10:00:00-04:00",
-    "forecast": "90.3",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "90.8",
-    "result_alert_sent": false,
-    "title": "CB Consumer Confidence"
-  },
   "USD_Core PCE Price Index m/m_2026-08-26T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
