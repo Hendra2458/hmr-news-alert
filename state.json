@@ -21,17 +21,6 @@
     "result_alert_sent": false,
     "title": "Average Hourly Earnings m/m"
   },
-  "USD_Core PCE Price Index m/m_2026-08-26T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-26T08:30:00-04:00",
-    "forecast": "0.2%",
-    "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "0.1%",
-    "result_alert_sent": false,
-    "title": "Core PCE Price Index m/m"
-  },
   "USD_Fed Chairman Warsh Speaks_2026-08-28T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -108,28 +97,6 @@
     "previous": "-911K",
     "result_alert_sent": false,
     "title": "Prelim Benchmark Payrolls Revision"
-  },
-  "USD_Prelim GDP Price Index q/q_2026-08-26T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-26T08:30:00-04:00",
-    "forecast": "6.2%",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "6.2%",
-    "result_alert_sent": false,
-    "title": "Prelim GDP Price Index q/q"
-  },
-  "USD_Prelim GDP q/q_2026-08-26T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-26T08:30:00-04:00",
-    "forecast": "1.5%",
-    "impact": "High",
-    "pre_alert_sent": true,
-    "previous": "1.5%",
-    "result_alert_sent": false,
-    "title": "Prelim GDP q/q"
   },
   "USD_Revised UoM Consumer Sentiment_2026-08-28T10:00:00-04:00": {
     "actual": "",
