@@ -76,17 +76,6 @@
     "result_alert_sent": false,
     "title": "Core PPI m/m"
   },
-  "USD_Fed Chairman Warsh Speaks_2026-08-28T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-28T10:00:00-04:00",
-    "forecast": "",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "Fed Chairman Warsh Speaks"
-  },
   "USD_ISM Manufacturing PMI_2026-09-01T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -153,17 +142,6 @@
     "result_alert_sent": false,
     "title": "PPI m/m"
   },
-  "USD_Prelim Benchmark Payrolls Revision_2026-08-28T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-28T10:00:00-04:00",
-    "forecast": "",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "-911K",
-    "result_alert_sent": false,
-    "title": "Prelim Benchmark Payrolls Revision"
-  },
   "USD_Prelim UoM Consumer Sentiment_2026-09-11T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -185,28 +163,6 @@
     "previous": "4.3%",
     "result_alert_sent": false,
     "title": "Prelim UoM Inflation Expectations"
-  },
-  "USD_Revised UoM Consumer Sentiment_2026-08-28T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-28T10:00:00-04:00",
-    "forecast": "51.0",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "51.0",
-    "result_alert_sent": false,
-    "title": "Revised UoM Consumer Sentiment"
-  },
-  "USD_Revised UoM Inflation Expectations_2026-08-28T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-08-28T10:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "4.3%",
-    "result_alert_sent": false,
-    "title": "Revised UoM Inflation Expectations"
   },
   "USD_Unemployment Claims_2026-09-03T08:30:00-04:00": {
     "actual": "",
