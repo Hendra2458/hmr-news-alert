@@ -76,28 +76,6 @@
     "result_alert_sent": false,
     "title": "Core PPI m/m"
   },
-  "USD_ISM Manufacturing PMI_2026-09-01T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-01T10:00:00-04:00",
-    "forecast": "55.2",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "55.6",
-    "result_alert_sent": false,
-    "title": "ISM Manufacturing PMI"
-  },
-  "USD_ISM Manufacturing Prices_2026-09-01T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-01T10:00:00-04:00",
-    "forecast": "70.5",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "71.1",
-    "result_alert_sent": false,
-    "title": "ISM Manufacturing Prices"
-  },
   "USD_ISM Services PMI_2026-09-03T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -108,17 +86,6 @@
     "previous": "54.1",
     "result_alert_sent": false,
     "title": "ISM Services PMI"
-  },
-  "USD_JOLTS Job Openings_2026-09-01T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-01T10:00:00-04:00",
-    "forecast": "7.33M",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "7.36M",
-    "result_alert_sent": false,
-    "title": "JOLTS Job Openings"
   },
   "USD_Non-Farm Employment Change_2026-09-04T08:30:00-04:00": {
     "actual": "",
