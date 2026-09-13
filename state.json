@@ -65,6 +65,61 @@
     "result_alert_sent": false,
     "title": "Core PPI m/m"
   },
+  "USD_Core Retail Sales m/m_2026-09-16T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-16T08:30:00-04:00",
+    "forecast": "0.5%",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "-0.3%",
+    "result_alert_sent": false,
+    "title": "Core Retail Sales m/m"
+  },
+  "USD_FOMC Economic Projections_2026-09-16T14:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-16T14:00:00-04:00",
+    "forecast": "",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "FOMC Economic Projections"
+  },
+  "USD_FOMC Press Conference_2026-09-16T14:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-16T14:30:00-04:00",
+    "forecast": "",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "FOMC Press Conference"
+  },
+  "USD_FOMC Statement_2026-09-16T14:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-16T14:00:00-04:00",
+    "forecast": "",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "FOMC Statement"
+  },
+  "USD_Federal Funds Rate_2026-09-16T14:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-16T14:00:00-04:00",
+    "forecast": "",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "3.75%",
+    "result_alert_sent": false,
+    "title": "Federal Funds Rate"
+  },
   "USD_ISM Services PMI_2026-09-03T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -97,6 +152,17 @@
     "previous": "0.0%",
     "result_alert_sent": false,
     "title": "PPI m/m"
+  },
+  "USD_Philly Fed Manufacturing Index_2026-09-17T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-17T08:30:00-04:00",
+    "forecast": "28.9",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "47.4",
+    "result_alert_sent": false,
+    "title": "Philly Fed Manufacturing Index"
   },
   "USD_Prelim UoM Consumer Sentiment_2026-09-11T10:00:00-04:00": {
     "actual": "",
@@ -131,6 +197,17 @@
     "result_alert_sent": false,
     "title": "President Trump Speaks"
   },
+  "USD_Retail Sales m/m_2026-09-16T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-16T08:30:00-04:00",
+    "forecast": "0.8%",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "-0.6%",
+    "result_alert_sent": false,
+    "title": "Retail Sales m/m"
+  },
   "USD_Unemployment Claims_2026-09-03T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -147,6 +224,17 @@
     "country": "USD",
     "event_time": "2026-09-10T08:30:00-04:00",
     "forecast": "205K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "206K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Claims_2026-09-17T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-17T08:30:00-04:00",
+    "forecast": "209K",
     "impact": "Medium",
     "pre_alert_sent": false,
     "previous": "206K",
