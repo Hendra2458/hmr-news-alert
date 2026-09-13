@@ -120,17 +120,6 @@
     "result_alert_sent": false,
     "title": "Federal Funds Rate"
   },
-  "USD_ISM Services PMI_2026-09-03T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-03T10:00:00-04:00",
-    "forecast": "54.2",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "54.1",
-    "result_alert_sent": false,
-    "title": "ISM Services PMI"
-  },
   "USD_Non-Farm Employment Change_2026-09-04T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -207,17 +196,6 @@
     "previous": "-0.6%",
     "result_alert_sent": false,
     "title": "Retail Sales m/m"
-  },
-  "USD_Unemployment Claims_2026-09-03T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-03T08:30:00-04:00",
-    "forecast": "205K",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "203K",
-    "result_alert_sent": false,
-    "title": "Unemployment Claims"
   },
   "USD_Unemployment Claims_2026-09-10T08:30:00-04:00": {
     "actual": "",
