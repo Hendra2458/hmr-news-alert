@@ -1,15 +1,4 @@
 {
-  "USD_Average Hourly Earnings m/m_2026-09-04T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-04T08:30:00-04:00",
-    "forecast": "0.3%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.1%",
-    "result_alert_sent": false,
-    "title": "Average Hourly Earnings m/m"
-  },
   "USD_CPI m/m_2026-09-11T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -120,17 +109,6 @@
     "result_alert_sent": false,
     "title": "Federal Funds Rate"
   },
-  "USD_Non-Farm Employment Change_2026-09-04T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-04T08:30:00-04:00",
-    "forecast": "55K",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "-23K",
-    "result_alert_sent": false,
-    "title": "Non-Farm Employment Change"
-  },
   "USD_PPI m/m_2026-09-10T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -218,17 +196,6 @@
     "previous": "206K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
-  },
-  "USD_Unemployment Rate_2026-09-04T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-04T08:30:00-04:00",
-    "forecast": "4.1%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "4.1%",
-    "result_alert_sent": false,
-    "title": "Unemployment Rate"
   },
   "__meta__": {
     "last_summary_week": "2026-W38"
