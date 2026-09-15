@@ -175,6 +175,17 @@
     "result_alert_sent": false,
     "title": "Retail Sales m/m"
   },
+  "USD_Treasury Sec Bessent Speaks_2026-09-15T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-15T10:00:00-04:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "Treasury Sec Bessent Speaks"
+  },
   "USD_Unemployment Claims_2026-09-10T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
