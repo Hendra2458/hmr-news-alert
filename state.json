@@ -153,17 +153,6 @@
     "result_alert_sent": false,
     "title": "Prelim UoM Inflation Expectations"
   },
-  "USD_President Trump Speaks_2026-09-09T21:15:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-09T21:15:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "President Trump Speaks"
-  },
   "USD_Retail Sales m/m_2026-09-16T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -174,6 +163,28 @@
     "previous": "-0.6%",
     "result_alert_sent": false,
     "title": "Retail Sales m/m"
+  },
+  "USD_Revised UoM Consumer Sentiment_2026-09-25T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-25T10:00:00-04:00",
+    "forecast": "47.5",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "47.8",
+    "result_alert_sent": false,
+    "title": "Revised UoM Consumer Sentiment"
+  },
+  "USD_Revised UoM Inflation Expectations_2026-09-25T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-25T10:00:00-04:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "4.6%",
+    "result_alert_sent": false,
+    "title": "Revised UoM Inflation Expectations"
   },
   "USD_Treasury Sec Bessent Speaks_2026-09-15T10:00:00-04:00": {
     "actual": "",
@@ -205,6 +216,17 @@
     "impact": "Medium",
     "pre_alert_sent": false,
     "previous": "206K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Claims_2026-09-24T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-24T08:30:00-04:00",
+    "forecast": "201K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "196K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
   },
