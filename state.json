@@ -43,17 +43,6 @@
     "result_alert_sent": false,
     "title": "Core CPI y/y"
   },
-  "USD_Core PPI m/m_2026-09-10T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-10T08:30:00-04:00",
-    "forecast": "0.3%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.2%",
-    "result_alert_sent": false,
-    "title": "Core PPI m/m"
-  },
   "USD_Core Retail Sales m/m_2026-09-16T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -108,17 +97,6 @@
     "previous": "3.75%",
     "result_alert_sent": false,
     "title": "Federal Funds Rate"
-  },
-  "USD_PPI m/m_2026-09-10T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-10T08:30:00-04:00",
-    "forecast": "0.4%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.0%",
-    "result_alert_sent": false,
-    "title": "PPI m/m"
   },
   "USD_Philly Fed Manufacturing Index_2026-09-17T08:30:00-04:00": {
     "actual": "",
@@ -196,17 +174,6 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "Treasury Sec Bessent Speaks"
-  },
-  "USD_Unemployment Claims_2026-09-10T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-10T08:30:00-04:00",
-    "forecast": "205K",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "206K",
-    "result_alert_sent": false,
-    "title": "Unemployment Claims"
   },
   "USD_Unemployment Claims_2026-09-17T08:30:00-04:00": {
     "actual": "",
