@@ -137,7 +137,7 @@
     "event_time": "2026-09-24T08:30:00-04:00",
     "forecast": "201K",
     "impact": "Medium",
-    "pre_alert_sent": false,
+    "pre_alert_sent": true,
     "previous": "196K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
