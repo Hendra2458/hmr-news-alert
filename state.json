@@ -1,15 +1,4 @@
 {
-  "USD_Core Retail Sales m/m_2026-09-16T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-16T08:30:00-04:00",
-    "forecast": "0.6%",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "-0.3%",
-    "result_alert_sent": false,
-    "title": "Core Retail Sales m/m"
-  },
   "USD_FOMC Economic Projections_2026-09-16T14:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -97,17 +86,6 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "President Trump Speaks"
-  },
-  "USD_Retail Sales m/m_2026-09-16T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-16T08:30:00-04:00",
-    "forecast": "0.8%",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "-0.6%",
-    "result_alert_sent": false,
-    "title": "Retail Sales m/m"
   },
   "USD_Revised UoM Consumer Sentiment_2026-09-25T10:00:00-04:00": {
     "actual": "",
