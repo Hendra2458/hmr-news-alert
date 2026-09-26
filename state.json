@@ -1,48 +1,4 @@
 {
-  "USD_FOMC Economic Projections_2026-09-16T14:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-16T14:00:00-04:00",
-    "forecast": "",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "FOMC Economic Projections"
-  },
-  "USD_FOMC Press Conference_2026-09-16T14:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-16T14:30:00-04:00",
-    "forecast": "",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "FOMC Press Conference"
-  },
-  "USD_FOMC Statement_2026-09-16T14:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-16T14:00:00-04:00",
-    "forecast": "",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "FOMC Statement"
-  },
-  "USD_Federal Funds Rate_2026-09-16T14:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-16T14:00:00-04:00",
-    "forecast": "4.00%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "3.75%",
-    "result_alert_sent": false,
-    "title": "Federal Funds Rate"
-  },
   "USD_Philly Fed Manufacturing Index_2026-09-17T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
