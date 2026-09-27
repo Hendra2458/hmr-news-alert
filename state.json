@@ -109,17 +109,6 @@
     "result_alert_sent": false,
     "title": "Non-Farm Employment Change"
   },
-  "USD_Philly Fed Manufacturing Index_2026-09-17T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-17T08:30:00-04:00",
-    "forecast": "31.3",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "47.4",
-    "result_alert_sent": false,
-    "title": "Philly Fed Manufacturing Index"
-  },
   "USD_President Trump Speaks_2026-09-22T09:55:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -174,17 +163,6 @@
     "previous": "4.6%",
     "result_alert_sent": false,
     "title": "Revised UoM Inflation Expectations"
-  },
-  "USD_Unemployment Claims_2026-09-17T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-17T08:30:00-04:00",
-    "forecast": "207K",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "206K",
-    "result_alert_sent": false,
-    "title": "Unemployment Claims"
   },
   "USD_Unemployment Claims_2026-09-24T08:30:00-04:00": {
     "actual": "",
