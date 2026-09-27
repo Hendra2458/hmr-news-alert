@@ -1,4 +1,114 @@
 {
+  "USD_ADP Non-Farm Employment Change_2026-09-30T08:15:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-30T08:15:00-04:00",
+    "forecast": "70K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "38K",
+    "result_alert_sent": false,
+    "title": "ADP Non-Farm Employment Change"
+  },
+  "USD_Average Hourly Earnings m/m_2026-10-02T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-02T08:30:00-04:00",
+    "forecast": "0.3%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.3%",
+    "result_alert_sent": false,
+    "title": "Average Hourly Earnings m/m"
+  },
+  "USD_CB Consumer Confidence_2026-09-29T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-29T10:00:00-04:00",
+    "forecast": "90.1",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "89.4",
+    "result_alert_sent": false,
+    "title": "CB Consumer Confidence"
+  },
+  "USD_Core PCE Price Index m/m_2026-09-30T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-30T08:30:00-04:00",
+    "forecast": "0.3%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.2%",
+    "result_alert_sent": false,
+    "title": "Core PCE Price Index m/m"
+  },
+  "USD_FOMC Member Waller Speaks_2026-10-01T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-01T10:00:00-04:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "FOMC Member Waller Speaks"
+  },
+  "USD_Final GDP Price Index q/q_2026-09-30T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-30T08:30:00-04:00",
+    "forecast": "6.4%",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "6.4%",
+    "result_alert_sent": false,
+    "title": "Final GDP Price Index q/q"
+  },
+  "USD_Final GDP q/q_2026-09-30T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-30T08:30:00-04:00",
+    "forecast": "1.5%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "1.5%",
+    "result_alert_sent": false,
+    "title": "Final GDP q/q"
+  },
+  "USD_ISM Manufacturing PMI_2026-10-01T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-01T10:00:00-04:00",
+    "forecast": "55.0",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "54.6",
+    "result_alert_sent": false,
+    "title": "ISM Manufacturing PMI"
+  },
+  "USD_JOLTS Job Openings_2026-09-29T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-29T10:00:00-04:00",
+    "forecast": "7.23M",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "7.27M",
+    "result_alert_sent": false,
+    "title": "JOLTS Job Openings"
+  },
+  "USD_Non-Farm Employment Change_2026-10-02T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-02T08:30:00-04:00",
+    "forecast": "98K",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "162K",
+    "result_alert_sent": false,
+    "title": "Non-Farm Employment Change"
+  },
   "USD_Philly Fed Manufacturing Index_2026-09-17T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -86,6 +196,28 @@
     "previous": "196K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Claims_2026-10-01T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-01T08:30:00-04:00",
+    "forecast": "199K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "197K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Rate_2026-10-02T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-02T08:30:00-04:00",
+    "forecast": "4.1%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "4.1%",
+    "result_alert_sent": false,
+    "title": "Unemployment Rate"
   },
   "__meta__": {
     "last_summary_week": "2026-W39"
