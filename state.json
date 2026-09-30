@@ -43,6 +43,17 @@
     "result_alert_sent": false,
     "title": "Core PCE Price Index m/m"
   },
+  "USD_FOMC Member Kashkari Speaks_2026-09-30T18:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-09-30T18:00:00-04:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "FOMC Member Kashkari Speaks"
+  },
   "USD_FOMC Member Waller Speaks_2026-10-01T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
