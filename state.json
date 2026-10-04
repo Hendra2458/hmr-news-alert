@@ -43,6 +43,17 @@
     "result_alert_sent": false,
     "title": "Core PCE Price Index m/m"
   },
+  "USD_FOMC Meeting Minutes_2026-10-07T14:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-07T14:00:00-04:00",
+    "forecast": "",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "FOMC Meeting Minutes"
+  },
   "USD_FOMC Member Kashkari Speaks_2026-09-30T18:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -98,6 +109,17 @@
     "result_alert_sent": false,
     "title": "ISM Manufacturing PMI"
   },
+  "USD_ISM Services PMI_2026-10-05T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-05T10:00:00-04:00",
+    "forecast": "55.1",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "55.4",
+    "result_alert_sent": false,
+    "title": "ISM Services PMI"
+  },
   "USD_JOLTS Job Openings_2026-09-29T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -119,6 +141,28 @@
     "previous": "162K",
     "result_alert_sent": false,
     "title": "Non-Farm Employment Change"
+  },
+  "USD_Prelim UoM Consumer Sentiment_2026-10-09T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-09T10:00:00-04:00",
+    "forecast": "47.6",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "47.8",
+    "result_alert_sent": false,
+    "title": "Prelim UoM Consumer Sentiment"
+  },
+  "USD_Prelim UoM Inflation Expectations_2026-10-09T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-09T10:00:00-04:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "4.6%",
+    "result_alert_sent": false,
+    "title": "Prelim UoM Inflation Expectations"
   },
   "USD_President Trump Speaks_2026-09-24T10:15:00-04:00": {
     "actual": "",
@@ -191,6 +235,17 @@
     "country": "USD",
     "event_time": "2026-10-01T08:30:00-04:00",
     "forecast": "201K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "197K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Claims_2026-10-08T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-08T08:30:00-04:00",
+    "forecast": "200K",
     "impact": "Medium",
     "pre_alert_sent": false,
     "previous": "197K",
