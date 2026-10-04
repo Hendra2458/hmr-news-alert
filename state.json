@@ -219,17 +219,6 @@
     "result_alert_sent": false,
     "title": "Revised UoM Inflation Expectations"
   },
-  "USD_Unemployment Claims_2026-09-24T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-24T08:30:00-04:00",
-    "forecast": "201K",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "196K",
-    "result_alert_sent": false,
-    "title": "Unemployment Claims"
-  },
   "USD_Unemployment Claims_2026-10-01T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
