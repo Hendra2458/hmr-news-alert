@@ -76,6 +76,17 @@
     "result_alert_sent": false,
     "title": "FOMC Member Waller Speaks"
   },
+  "USD_FOMC Member Waller Speaks_2026-10-08T04:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-08T04:30:00-04:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "FOMC Member Waller Speaks"
+  },
   "USD_Final GDP Price Index q/q_2026-09-30T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -174,28 +185,6 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "President Trump Speaks"
-  },
-  "USD_Revised UoM Consumer Sentiment_2026-09-25T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-25T10:00:00-04:00",
-    "forecast": "47.4",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "47.8",
-    "result_alert_sent": false,
-    "title": "Revised UoM Consumer Sentiment"
-  },
-  "USD_Revised UoM Inflation Expectations_2026-09-25T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-25T10:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "4.6%",
-    "result_alert_sent": false,
-    "title": "Revised UoM Inflation Expectations"
   },
   "USD_Unemployment Claims_2026-10-01T08:30:00-04:00": {
     "actual": "",
