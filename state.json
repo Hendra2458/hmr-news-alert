@@ -21,17 +21,6 @@
     "result_alert_sent": false,
     "title": "FOMC Meeting Minutes"
   },
-  "USD_FOMC Member Kashkari Speaks_2026-09-30T18:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-30T18:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "FOMC Member Kashkari Speaks"
-  },
   "USD_FOMC Member Waller Speaks_2026-10-01T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -108,17 +97,6 @@
     "previous": "4.6%",
     "result_alert_sent": false,
     "title": "Prelim UoM Inflation Expectations"
-  },
-  "USD_President Trump Speaks_2026-09-30T15:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-09-30T15:30:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "President Trump Speaks"
   },
   "USD_President Trump Speaks_2026-10-07T13:00:00-04:00": {
     "actual": "",
