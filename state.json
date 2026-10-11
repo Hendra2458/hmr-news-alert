@@ -87,17 +87,6 @@
     "result_alert_sent": false,
     "title": "FOMC Meeting Minutes"
   },
-  "USD_FOMC Member Waller Speaks_2026-10-01T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-01T10:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "FOMC Member Waller Speaks"
-  },
   "USD_FOMC Member Waller Speaks_2026-10-08T04:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -119,17 +108,6 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "Fed Chairman Warsh Speaks"
-  },
-  "USD_ISM Manufacturing PMI_2026-10-01T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-01T10:00:00-04:00",
-    "forecast": "54.8",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "54.6",
-    "result_alert_sent": false,
-    "title": "ISM Manufacturing PMI"
   },
   "USD_ISM Services PMI_2026-10-05T10:00:00-04:00": {
     "actual": "",
@@ -218,17 +196,6 @@
     "previous": "1.2%",
     "result_alert_sent": false,
     "title": "Retail Sales m/m"
-  },
-  "USD_Unemployment Claims_2026-10-01T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-01T08:30:00-04:00",
-    "forecast": "201K",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "197K",
-    "result_alert_sent": false,
-    "title": "Unemployment Claims"
   },
   "USD_Unemployment Claims_2026-10-08T08:30:00-04:00": {
     "actual": "",
