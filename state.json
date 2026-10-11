@@ -10,6 +10,72 @@
     "result_alert_sent": false,
     "title": "Average Hourly Earnings m/m"
   },
+  "USD_CPI m/m_2026-10-14T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-14T08:30:00-04:00",
+    "forecast": "0.6%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.4%",
+    "result_alert_sent": false,
+    "title": "CPI m/m"
+  },
+  "USD_CPI y/y_2026-10-14T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-14T08:30:00-04:00",
+    "forecast": "3.6%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "3.4%",
+    "result_alert_sent": false,
+    "title": "CPI y/y"
+  },
+  "USD_Core CPI m/m_2026-10-14T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-14T08:30:00-04:00",
+    "forecast": "0.2%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.3%",
+    "result_alert_sent": false,
+    "title": "Core CPI m/m"
+  },
+  "USD_Core CPI y/y_2026-10-14T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-14T08:30:00-04:00",
+    "forecast": "2.5%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "2.4%",
+    "result_alert_sent": false,
+    "title": "Core CPI y/y"
+  },
+  "USD_Core PPI m/m_2026-10-15T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-15T08:30:00-04:00",
+    "forecast": "0.3%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.2%",
+    "result_alert_sent": false,
+    "title": "Core PPI m/m"
+  },
+  "USD_Core Retail Sales m/m_2026-10-15T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-15T08:30:00-04:00",
+    "forecast": "0.5%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "1.4%",
+    "result_alert_sent": false,
+    "title": "Core Retail Sales m/m"
+  },
   "USD_FOMC Meeting Minutes_2026-10-07T14:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -42,6 +108,17 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "FOMC Member Waller Speaks"
+  },
+  "USD_Fed Chairman Warsh Speaks_2026-10-15T23:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-15T23:30:00-04:00",
+    "forecast": "",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "Fed Chairman Warsh Speaks"
   },
   "USD_ISM Manufacturing PMI_2026-10-01T10:00:00-04:00": {
     "actual": "",
@@ -76,6 +153,28 @@
     "result_alert_sent": false,
     "title": "Non-Farm Employment Change"
   },
+  "USD_PPI m/m_2026-10-15T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-15T08:30:00-04:00",
+    "forecast": "0.5%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.4%",
+    "result_alert_sent": false,
+    "title": "PPI m/m"
+  },
+  "USD_Philly Fed Manufacturing Index_2026-10-15T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-15T08:30:00-04:00",
+    "forecast": "26.5",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "37.8",
+    "result_alert_sent": false,
+    "title": "Philly Fed Manufacturing Index"
+  },
   "USD_Prelim UoM Consumer Sentiment_2026-10-09T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -109,6 +208,17 @@
     "result_alert_sent": false,
     "title": "President Trump Speaks"
   },
+  "USD_Retail Sales m/m_2026-10-15T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-15T08:30:00-04:00",
+    "forecast": "0.3%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "1.2%",
+    "result_alert_sent": false,
+    "title": "Retail Sales m/m"
+  },
   "USD_Unemployment Claims_2026-10-01T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -125,6 +235,17 @@
     "country": "USD",
     "event_time": "2026-10-08T08:30:00-04:00",
     "forecast": "200K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "197K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Claims_2026-10-15T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-15T08:30:00-04:00",
+    "forecast": "195K",
     "impact": "Medium",
     "pre_alert_sent": false,
     "previous": "197K",
