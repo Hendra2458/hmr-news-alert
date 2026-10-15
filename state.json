@@ -98,17 +98,6 @@
     "result_alert_sent": false,
     "title": "Fed Chairman Warsh Speaks"
   },
-  "USD_ISM Services PMI_2026-10-05T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-05T10:00:00-04:00",
-    "forecast": "55.1",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "55.4",
-    "result_alert_sent": false,
-    "title": "ISM Services PMI"
-  },
   "USD_PPI m/m_2026-10-15T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
