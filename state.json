@@ -87,6 +87,28 @@
     "result_alert_sent": false,
     "title": "Fed Chairman Warsh Speaks"
   },
+  "USD_Flash Manufacturing PMI_2026-10-23T09:45:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-23T09:45:00-04:00",
+    "forecast": "55.5",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "57.0",
+    "result_alert_sent": false,
+    "title": "Flash Manufacturing PMI"
+  },
+  "USD_Flash Services PMI_2026-10-23T09:45:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-23T09:45:00-04:00",
+    "forecast": "58.0",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "58.7",
+    "result_alert_sent": false,
+    "title": "Flash Services PMI"
+  },
   "USD_PPI m/m_2026-10-15T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -142,6 +164,28 @@
     "result_alert_sent": false,
     "title": "Retail Sales m/m"
   },
+  "USD_Revised UoM Consumer Sentiment_2026-10-23T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-23T10:00:00-04:00",
+    "forecast": "46.3",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "46.3",
+    "result_alert_sent": false,
+    "title": "Revised UoM Consumer Sentiment"
+  },
+  "USD_Revised UoM Inflation Expectations_2026-10-23T10:00:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-23T10:00:00-04:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "4.7%",
+    "result_alert_sent": false,
+    "title": "Revised UoM Inflation Expectations"
+  },
   "USD_Unemployment Claims_2026-10-08T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -161,6 +205,17 @@
     "impact": "Medium",
     "pre_alert_sent": false,
     "previous": "197K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Claims_2026-10-22T08:30:00-04:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-10-22T08:30:00-04:00",
+    "forecast": "200K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "199K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
   },
