@@ -120,28 +120,6 @@
     "result_alert_sent": false,
     "title": "Philly Fed Manufacturing Index"
   },
-  "USD_Prelim UoM Consumer Sentiment_2026-10-09T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-09T10:00:00-04:00",
-    "forecast": "47.5",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "47.8",
-    "result_alert_sent": false,
-    "title": "Prelim UoM Consumer Sentiment"
-  },
-  "USD_Prelim UoM Inflation Expectations_2026-10-09T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-09T10:00:00-04:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": true,
-    "previous": "4.6%",
-    "result_alert_sent": false,
-    "title": "Prelim UoM Inflation Expectations"
-  },
   "USD_Retail Sales m/m_2026-10-15T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
