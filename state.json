@@ -43,28 +43,6 @@
     "result_alert_sent": false,
     "title": "Core PCE Price Index m/m"
   },
-  "USD_Core PPI m/m_2026-10-15T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-15T08:30:00-04:00",
-    "forecast": "0.3%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.2%",
-    "result_alert_sent": false,
-    "title": "Core PPI m/m"
-  },
-  "USD_Core Retail Sales m/m_2026-10-15T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-15T08:30:00-04:00",
-    "forecast": "0.6%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "1.4%",
-    "result_alert_sent": false,
-    "title": "Core Retail Sales m/m"
-  },
   "USD_Employment Cost Index q/q_2026-10-30T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -142,39 +120,6 @@
     "result_alert_sent": false,
     "title": "Flash Services PMI"
   },
-  "USD_PPI m/m_2026-10-15T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-15T08:30:00-04:00",
-    "forecast": "0.6%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.4%",
-    "result_alert_sent": false,
-    "title": "PPI m/m"
-  },
-  "USD_Philly Fed Manufacturing Index_2026-10-15T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-15T08:30:00-04:00",
-    "forecast": "28.2",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "37.8",
-    "result_alert_sent": false,
-    "title": "Philly Fed Manufacturing Index"
-  },
-  "USD_Retail Sales m/m_2026-10-15T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-15T08:30:00-04:00",
-    "forecast": "0.3%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "1.2%",
-    "result_alert_sent": false,
-    "title": "Retail Sales m/m"
-  },
   "USD_Revised UoM Consumer Sentiment_2026-10-23T10:00:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -196,17 +141,6 @@
     "previous": "4.7%",
     "result_alert_sent": false,
     "title": "Revised UoM Inflation Expectations"
-  },
-  "USD_Unemployment Claims_2026-10-15T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-15T08:30:00-04:00",
-    "forecast": "199K",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "197K",
-    "result_alert_sent": false,
-    "title": "Unemployment Claims"
   },
   "USD_Unemployment Claims_2026-10-22T08:30:00-04:00": {
     "actual": "",
