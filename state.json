@@ -76,17 +76,6 @@
     "result_alert_sent": false,
     "title": "FOMC Statement"
   },
-  "USD_Fed Chairman Warsh Speaks_2026-10-15T23:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-15T23:30:00-04:00",
-    "forecast": "",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "Fed Chairman Warsh Speaks"
-  },
   "USD_Federal Funds Rate_2026-10-28T14:00:00-04:00": {
     "actual": "",
     "country": "USD",
