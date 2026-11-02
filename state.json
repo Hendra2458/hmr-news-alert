@@ -135,7 +135,7 @@
     "actual": "",
     "country": "USD",
     "event_time": "2026-11-02T10:00:00-05:00",
-    "forecast": "54.7",
+    "forecast": "54.5",
     "impact": "Medium",
     "pre_alert_sent": false,
     "previous": "54.5",
@@ -253,6 +253,6 @@
     "title": "Unemployment Rate"
   },
   "__meta__": {
-    "last_summary_week": "2026-W44"
+    "last_summary_week": "2026-W45"
   }
 }
