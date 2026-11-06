@@ -32,17 +32,6 @@
     "result_alert_sent": false,
     "title": "Average Hourly Earnings m/m"
   },
-  "USD_CB Consumer Confidence_2026-10-27T10:00:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-27T10:00:00-04:00",
-    "forecast": "81.2",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "81.9",
-    "result_alert_sent": false,
-    "title": "CB Consumer Confidence"
-  },
   "USD_Congressional Elections_2026-11-03T10:16:00-05:00": {
     "actual": "",
     "country": "USD",
