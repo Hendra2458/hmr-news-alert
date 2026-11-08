@@ -32,6 +32,17 @@
     "result_alert_sent": false,
     "title": "Average Hourly Earnings m/m"
   },
+  "USD_CPI m/m_2026-11-10T08:30:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-10T08:30:00-05:00",
+    "forecast": "0.3%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.6%",
+    "result_alert_sent": false,
+    "title": "CPI m/m"
+  },
   "USD_Congressional Elections_2026-11-03T10:16:00-05:00": {
     "actual": "",
     "country": "USD",
@@ -42,6 +53,17 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "Congressional Elections"
+  },
+  "USD_Core CPI m/m_2026-11-10T08:30:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-10T08:30:00-05:00",
+    "forecast": "0.2%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.3%",
+    "result_alert_sent": false,
+    "title": "Core CPI m/m"
   },
   "USD_Core PCE Price Index m/m_2026-10-29T08:30:00-04:00": {
     "actual": "",
@@ -54,6 +76,17 @@
     "result_alert_sent": false,
     "title": "Core PCE Price Index m/m"
   },
+  "USD_Core PPI m/m_2026-11-13T08:30:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-13T08:30:00-05:00",
+    "forecast": "0.3%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.7%",
+    "result_alert_sent": false,
+    "title": "Core PPI m/m"
+  },
   "USD_Employment Cost Index q/q_2026-10-30T08:30:00-04:00": {
     "actual": "",
     "country": "USD",
@@ -64,6 +97,17 @@
     "previous": "0.9%",
     "result_alert_sent": false,
     "title": "Employment Cost Index q/q"
+  },
+  "USD_FOMC Member Waller Speaks_2026-11-10T04:00:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-10T04:00:00-05:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "FOMC Member Waller Speaks"
   },
   "USD_ISM Manufacturing PMI_2026-11-02T10:00:00-05:00": {
     "actual": "",
@@ -109,6 +153,17 @@
     "result_alert_sent": false,
     "title": "Non-Farm Employment Change"
   },
+  "USD_PPI m/m_2026-11-13T08:30:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-13T08:30:00-05:00",
+    "forecast": "0.4%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "1.3%",
+    "result_alert_sent": false,
+    "title": "PPI m/m"
+  },
   "USD_Prelim UoM Consumer Sentiment_2026-11-06T10:00:00-05:00": {
     "actual": "",
     "country": "USD",
@@ -150,6 +205,17 @@
     "impact": "Medium",
     "pre_alert_sent": false,
     "previous": "194K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Claims_2026-11-12T08:30:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-12T08:30:00-05:00",
+    "forecast": "194K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "189K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
   },
