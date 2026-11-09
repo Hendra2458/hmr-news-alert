@@ -54,17 +54,6 @@
     "result_alert_sent": false,
     "title": "Core PPI m/m"
   },
-  "USD_Employment Cost Index q/q_2026-10-30T08:30:00-04:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-10-30T08:30:00-04:00",
-    "forecast": "0.8%",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "0.9%",
-    "result_alert_sent": false,
-    "title": "Employment Cost Index q/q"
-  },
   "USD_FOMC Member Waller Speaks_2026-11-10T04:00:00-05:00": {
     "actual": "",
     "country": "USD",
