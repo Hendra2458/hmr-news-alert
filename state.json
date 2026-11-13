@@ -21,17 +21,6 @@
     "result_alert_sent": false,
     "title": "CPI m/m"
   },
-  "USD_Congressional Elections_2026-11-03T10:16:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-03T10:16:00-05:00",
-    "forecast": "",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "Congressional Elections"
-  },
   "USD_Core CPI m/m_2026-11-10T08:30:00-05:00": {
     "actual": "",
     "country": "USD",
@@ -75,17 +64,6 @@
     "previous": "54.9",
     "result_alert_sent": false,
     "title": "ISM Services PMI"
-  },
-  "USD_JOLTS Job Openings_2026-11-03T10:00:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-03T10:00:00-05:00",
-    "forecast": "7.15M",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "7.08M",
-    "result_alert_sent": false,
-    "title": "JOLTS Job Openings"
   },
   "USD_Non-Farm Employment Change_2026-11-06T08:30:00-05:00": {
     "actual": "",
