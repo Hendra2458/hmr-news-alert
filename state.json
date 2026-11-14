@@ -54,17 +54,6 @@
     "result_alert_sent": false,
     "title": "FOMC Member Waller Speaks"
   },
-  "USD_ISM Services PMI_2026-11-04T10:00:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-04T10:00:00-05:00",
-    "forecast": "54.8",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "54.9",
-    "result_alert_sent": false,
-    "title": "ISM Services PMI"
-  },
   "USD_Non-Farm Employment Change_2026-11-06T08:30:00-05:00": {
     "actual": "",
     "country": "USD",
