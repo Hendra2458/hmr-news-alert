@@ -186,17 +186,6 @@
     "result_alert_sent": false,
     "title": "Revised UoM Inflation Expectations"
   },
-  "USD_Unemployment Claims_2026-11-05T08:30:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-05T08:30:00-05:00",
-    "forecast": "197K",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "194K",
-    "result_alert_sent": false,
-    "title": "Unemployment Claims"
-  },
   "USD_Unemployment Claims_2026-11-12T08:30:00-05:00": {
     "actual": "",
     "country": "USD",
