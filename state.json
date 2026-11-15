@@ -43,6 +43,28 @@
     "result_alert_sent": false,
     "title": "Core PPI m/m"
   },
+  "USD_Core Retail Sales m/m_2026-11-17T08:30:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-17T08:30:00-05:00",
+    "forecast": "0.4%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.9%",
+    "result_alert_sent": false,
+    "title": "Core Retail Sales m/m"
+  },
+  "USD_FOMC Meeting Minutes_2026-11-18T14:00:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-18T14:00:00-05:00",
+    "forecast": "",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "FOMC Meeting Minutes"
+  },
   "USD_FOMC Member Waller Speaks_2026-11-10T04:00:00-05:00": {
     "actual": "",
     "country": "USD",
@@ -53,6 +75,28 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "FOMC Member Waller Speaks"
+  },
+  "USD_FOMC Member Waller Speaks_2026-11-20T08:25:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-20T08:25:00-05:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "FOMC Member Waller Speaks"
+  },
+  "USD_Fed Chairman Warsh Speaks_2026-11-16T12:00:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-16T12:00:00-05:00",
+    "forecast": "",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "Fed Chairman Warsh Speaks"
   },
   "USD_Non-Farm Employment Change_2026-11-06T08:30:00-05:00": {
     "actual": "",
@@ -76,6 +120,17 @@
     "result_alert_sent": false,
     "title": "PPI m/m"
   },
+  "USD_Philly Fed Manufacturing Index_2026-11-19T08:30:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-19T08:30:00-05:00",
+    "forecast": "19.2",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "20.9",
+    "result_alert_sent": false,
+    "title": "Philly Fed Manufacturing Index"
+  },
   "USD_Prelim UoM Consumer Sentiment_2026-11-06T10:00:00-05:00": {
     "actual": "",
     "country": "USD",
@@ -98,6 +153,39 @@
     "result_alert_sent": false,
     "title": "Prelim UoM Inflation Expectations"
   },
+  "USD_Retail Sales m/m_2026-11-17T08:30:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-17T08:30:00-05:00",
+    "forecast": "0.2%",
+    "impact": "High",
+    "pre_alert_sent": false,
+    "previous": "0.8%",
+    "result_alert_sent": false,
+    "title": "Retail Sales m/m"
+  },
+  "USD_Revised UoM Consumer Sentiment_2026-11-20T10:00:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-20T10:00:00-05:00",
+    "forecast": "52.1",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "51.0",
+    "result_alert_sent": false,
+    "title": "Revised UoM Consumer Sentiment"
+  },
+  "USD_Revised UoM Inflation Expectations_2026-11-20T10:00:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-20T10:00:00-05:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "4.3%",
+    "result_alert_sent": false,
+    "title": "Revised UoM Inflation Expectations"
+  },
   "USD_Unemployment Claims_2026-11-05T08:30:00-05:00": {
     "actual": "",
     "country": "USD",
@@ -117,6 +205,17 @@
     "impact": "Medium",
     "pre_alert_sent": false,
     "previous": "189K",
+    "result_alert_sent": false,
+    "title": "Unemployment Claims"
+  },
+  "USD_Unemployment Claims_2026-11-19T08:30:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-19T08:30:00-05:00",
+    "forecast": "199K",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "200K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
   },
