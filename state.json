@@ -1,15 +1,4 @@
 {
-  "USD_Average Hourly Earnings m/m_2026-11-06T08:30:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-06T08:30:00-05:00",
-    "forecast": "0.3%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.1%",
-    "result_alert_sent": false,
-    "title": "Average Hourly Earnings m/m"
-  },
   "USD_CPI m/m_2026-11-10T08:30:00-05:00": {
     "actual": "",
     "country": "USD",
@@ -98,17 +87,6 @@
     "result_alert_sent": false,
     "title": "Fed Chairman Warsh Speaks"
   },
-  "USD_Non-Farm Employment Change_2026-11-06T08:30:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-06T08:30:00-05:00",
-    "forecast": "65K",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "29K",
-    "result_alert_sent": false,
-    "title": "Non-Farm Employment Change"
-  },
   "USD_PPI m/m_2026-11-13T08:30:00-05:00": {
     "actual": "",
     "country": "USD",
@@ -130,28 +108,6 @@
     "previous": "20.9",
     "result_alert_sent": false,
     "title": "Philly Fed Manufacturing Index"
-  },
-  "USD_Prelim UoM Consumer Sentiment_2026-11-06T10:00:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-06T10:00:00-05:00",
-    "forecast": "48.1",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "46.3",
-    "result_alert_sent": false,
-    "title": "Prelim UoM Consumer Sentiment"
-  },
-  "USD_Prelim UoM Inflation Expectations_2026-11-06T10:00:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-06T10:00:00-05:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "4.7%",
-    "result_alert_sent": false,
-    "title": "Prelim UoM Inflation Expectations"
   },
   "USD_Retail Sales m/m_2026-11-17T08:30:00-05:00": {
     "actual": "",
@@ -207,17 +163,6 @@
     "previous": "200K",
     "result_alert_sent": false,
     "title": "Unemployment Claims"
-  },
-  "USD_Unemployment Rate_2026-11-06T08:30:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-06T08:30:00-05:00",
-    "forecast": "4.2%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "4.2%",
-    "result_alert_sent": false,
-    "title": "Unemployment Rate"
   },
   "__meta__": {
     "last_summary_week": "2026-W47"
