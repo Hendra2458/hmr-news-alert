@@ -1,26 +1,4 @@
 {
-  "USD_CPI m/m_2026-11-10T08:30:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-10T08:30:00-05:00",
-    "forecast": "0.3%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.6%",
-    "result_alert_sent": false,
-    "title": "CPI m/m"
-  },
-  "USD_Core CPI m/m_2026-11-10T08:30:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-10T08:30:00-05:00",
-    "forecast": "0.2%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.3%",
-    "result_alert_sent": false,
-    "title": "Core CPI m/m"
-  },
   "USD_Core PPI m/m_2026-11-13T08:30:00-05:00": {
     "actual": "",
     "country": "USD",
@@ -53,17 +31,6 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "FOMC Meeting Minutes"
-  },
-  "USD_FOMC Member Waller Speaks_2026-11-10T04:00:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-10T04:00:00-05:00",
-    "forecast": "",
-    "impact": "Medium",
-    "pre_alert_sent": false,
-    "previous": "",
-    "result_alert_sent": false,
-    "title": "FOMC Member Waller Speaks"
   },
   "USD_FOMC Member Waller Speaks_2026-11-20T08:25:00-05:00": {
     "actual": "",
@@ -108,6 +75,17 @@
     "previous": "20.9",
     "result_alert_sent": false,
     "title": "Philly Fed Manufacturing Index"
+  },
+  "USD_President Trump Speaks_2026-11-20T12:00:00-05:00": {
+    "actual": "",
+    "country": "USD",
+    "event_time": "2026-11-20T12:00:00-05:00",
+    "forecast": "",
+    "impact": "Medium",
+    "pre_alert_sent": false,
+    "previous": "",
+    "result_alert_sent": false,
+    "title": "President Trump Speaks"
   },
   "USD_Retail Sales m/m_2026-11-17T08:30:00-05:00": {
     "actual": "",
