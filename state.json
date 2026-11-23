@@ -21,17 +21,6 @@
     "result_alert_sent": false,
     "title": "Core PCE Price Index m/m"
   },
-  "USD_Core PPI m/m_2026-11-13T08:30:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-13T08:30:00-05:00",
-    "forecast": "0.3%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.7%",
-    "result_alert_sent": false,
-    "title": "Core PPI m/m"
-  },
   "USD_Core Retail Sales m/m_2026-11-17T08:30:00-05:00": {
     "actual": "",
     "country": "USD",
@@ -97,17 +86,6 @@
     "previous": "57.9",
     "result_alert_sent": false,
     "title": "Flash Services PMI"
-  },
-  "USD_PPI m/m_2026-11-13T08:30:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-13T08:30:00-05:00",
-    "forecast": "0.4%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "1.3%",
-    "result_alert_sent": false,
-    "title": "PPI m/m"
   },
   "USD_Philly Fed Manufacturing Index_2026-11-19T08:30:00-05:00": {
     "actual": "",
