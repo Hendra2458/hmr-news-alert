@@ -21,17 +21,6 @@
     "result_alert_sent": false,
     "title": "Core PCE Price Index m/m"
   },
-  "USD_Core Retail Sales m/m_2026-11-17T08:30:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-17T08:30:00-05:00",
-    "forecast": "0.4%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.9%",
-    "result_alert_sent": false,
-    "title": "Core Retail Sales m/m"
-  },
   "USD_FOMC Meeting Minutes_2026-11-18T14:00:00-05:00": {
     "actual": "",
     "country": "USD",
@@ -119,17 +108,6 @@
     "previous": "",
     "result_alert_sent": false,
     "title": "President Trump Speaks"
-  },
-  "USD_Retail Sales m/m_2026-11-17T08:30:00-05:00": {
-    "actual": "",
-    "country": "USD",
-    "event_time": "2026-11-17T08:30:00-05:00",
-    "forecast": "0.1%",
-    "impact": "High",
-    "pre_alert_sent": false,
-    "previous": "0.8%",
-    "result_alert_sent": false,
-    "title": "Retail Sales m/m"
   },
   "USD_Revised UoM Consumer Sentiment_2026-11-20T10:00:00-05:00": {
     "actual": "",
